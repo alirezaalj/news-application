@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: datasource,logfile
+  application:
+    name: news
+  mvc:
+    log-resolved-exception: false
+
+application:
+  security:
+    jwt:
+      key: lS55D46564SllS
+      expiration: 2629800000

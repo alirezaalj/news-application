@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: datasource
+  application:
+    name: news
+application:
+  security:
+    jwt:
+      key: lS55D46564SllS
+      expiration: 2629800000
